@@ -101,7 +101,7 @@ app.post("/api/chat", async (req, res) => {
                 res.write(
                     `data: ${JSON.stringify({
                         type: "status",
-                        message: `Executing ${toolUse.name}...`,
+                        message: `Running ${toolUse.name}...`,
                     })}\n\n`
                 );
 
